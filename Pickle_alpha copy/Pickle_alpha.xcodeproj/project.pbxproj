@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D7D26921719763D002FA6F3 /* GroupDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D26911719763D002FA6F3 /* GroupDetailsVC.m */; };
+		9D7D2698171980E4002FA6F3 /* PickleDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D2697171980E4002FA6F3 /* PickleDetailsVC.m */; };
+		9D7D26A217198E11002FA6F3 /* PickleTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D26A117198E11002FA6F3 /* PickleTime.m */; };
+		9F65A3B0171955AD004B5221 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F65A3AF171955AD004B5221 /* Parse.framework */; };
+		9FBC8F9E171979F800599DB4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8F9D171979F800599DB4 /* AudioToolbox.framework */; };
+		9FBC8FA017197A0100599DB4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8F9F17197A0100599DB4 /* CFNetwork.framework */; };
+		9FBC8FA217197A1100599DB4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FA117197A1100599DB4 /* CoreLocation.framework */; };
+		9FBC8FA417197A1700599DB4 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FA317197A1700599DB4 /* libz.1.1.3.dylib */; };
+		9FBC8FA617197A1D00599DB4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FA517197A1D00599DB4 /* MobileCoreServices.framework */; };
+		9FBC8FA817197A2300599DB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FA717197A2300599DB4 /* QuartzCore.framework */; };
+		9FBC8FAA17197A2A00599DB4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FA917197A2A00599DB4 /* Security.framework */; };
+		9FBC8FAC17197A3200599DB4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FAB17197A3200599DB4 /* StoreKit.framework */; };
+		9FBC8FAE17197A3800599DB4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC8FAD17197A3800599DB4 /* SystemConfiguration.framework */; };
+		9FBC8FB117197D5F00599DB4 /* Picklee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC8FB017197D5F00599DB4 /* Picklee.m */; };
+		D88208A8171947CE00D74162 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88208A7171947CE00D74162 /* UIKit.framework */; };
+		D88208AA171947CE00D74162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88208A9171947CE00D74162 /* Foundation.framework */; };
+		D88208AC171947CE00D74162 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88208AB171947CE00D74162 /* CoreGraphics.framework */; };
+		D88208B2171947CE00D74162 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D88208B0171947CE00D74162 /* InfoPlist.strings */; };
+		D88208B4171947CE00D74162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88208B3171947CE00D74162 /* main.m */; };
+		D88208B8171947CF00D74162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88208B7171947CF00D74162 /* AppDelegate.m */; };
+		D88208BA171947CF00D74162 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D88208B9171947CF00D74162 /* Default.png */; };
+		D88208BC171947CF00D74162 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88208BB171947CF00D74162 /* Default@2x.png */; };
+		D88208BE171947CF00D74162 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88208BD171947CF00D74162 /* Default-568h@2x.png */; };
+		D88208C1171947CF00D74162 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88208BF171947CF00D74162 /* MainStoryboard.storyboard */; };
+		D88208C4171947CF00D74162 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88208C3171947CF00D74162 /* RootViewController.m */; };
+		D88208CC17194AA100D74162 /* PickleGroupTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88208CB17194AA000D74162 /* PickleGroupTabBarController.m */; };
+		D88208CF171954F600D74162 /* NewPickleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88208CE171954F600D74162 /* NewPickleViewController.m */; };
+		D8820901171963D800D74162 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8820900171963D800D74162 /* LoginViewController.m */; };
+		D88209041719669300D74162 /* NewGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88209031719669200D74162 /* NewGroupViewController.m */; };
+		D882090717196C0400D74162 /* GroupsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D882090617196C0300D74162 /* GroupsVC.m */; };
+		D8949C62171984AC004E9467 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8949C5F171984AC004E9467 /* FacebookSDK.framework */; };
+		D8949C63171984AC004E9467 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8949C60171984AC004E9467 /* FacebookSDKResources.bundle */; };
+		D8949C64171984AC004E9467 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8949C61171984AC004E9467 /* FBUserSettingsViewResources.bundle */; };
+		D8949C66171986EE004E9467 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8949C65171986EE004E9467 /* AdSupport.framework */; };
+		D8949C68171986F4004E9467 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8949C67171986F4004E9467 /* Social.framework */; };
+		D8949C6A17198701004E9467 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8949C6917198701004E9467 /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D7D26901719763D002FA6F3 /* GroupDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupDetailsVC.h; sourceTree = "<group>"; };
+		9D7D26911719763D002FA6F3 /* GroupDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupDetailsVC.m; sourceTree = "<group>"; };
+		9D7D2696171980E4002FA6F3 /* PickleDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickleDetailsVC.h; sourceTree = "<group>"; };
+		9D7D2697171980E4002FA6F3 /* PickleDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickleDetailsVC.m; sourceTree = "<group>"; };
+		9D7D26A017198E11002FA6F3 /* PickleTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickleTime.h; sourceTree = "<group>"; };
+		9D7D26A117198E11002FA6F3 /* PickleTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickleTime.m; sourceTree = "<group>"; };
+		9F65A3AF171955AD004B5221 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9FBC8F9D171979F800599DB4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9FBC8F9F17197A0100599DB4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9FBC8FA117197A1100599DB4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9FBC8FA317197A1700599DB4 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		9FBC8FA517197A1D00599DB4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9FBC8FA717197A2300599DB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9FBC8FA917197A2A00599DB4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9FBC8FAB17197A3200599DB4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9FBC8FAD17197A3800599DB4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9FBC8FAF17197D5F00599DB4 /* Picklee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picklee.h; sourceTree = "<group>"; };
+		9FBC8FB017197D5F00599DB4 /* Picklee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picklee.m; sourceTree = "<group>"; };
+		D88208A4171947CE00D74162 /* Pickle_alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickle_alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88208A7171947CE00D74162 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D88208A9171947CE00D74162 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D88208AB171947CE00D74162 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D88208AF171947CE00D74162 /* Pickle_alpha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickle_alpha-Info.plist"; sourceTree = "<group>"; };
+		D88208B1171947CE00D74162 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D88208B3171947CE00D74162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D88208B5171947CE00D74162 /* Pickle_alpha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pickle_alpha-Prefix.pch"; sourceTree = "<group>"; };
+		D88208B6171947CE00D74162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D88208B7171947CF00D74162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D88208B9171947CF00D74162 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D88208BB171947CF00D74162 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D88208BD171947CF00D74162 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D88208C0171947CF00D74162 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D88208C2171947CF00D74162 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D88208C3171947CF00D74162 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D88208CA17194AA000D74162 /* PickleGroupTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickleGroupTabBarController.h; sourceTree = "<group>"; };
+		D88208CB17194AA000D74162 /* PickleGroupTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickleGroupTabBarController.m; sourceTree = "<group>"; };
+		D88208CD171954F600D74162 /* NewPickleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPickleViewController.h; sourceTree = "<group>"; };
+		D88208CE171954F600D74162 /* NewPickleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPickleViewController.m; sourceTree = "<group>"; };
+		D88208FF171963D800D74162 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D8820900171963D800D74162 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D88209021719669200D74162 /* NewGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGroupViewController.h; sourceTree = "<group>"; };
+		D88209031719669200D74162 /* NewGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGroupViewController.m; sourceTree = "<group>"; };
+		D882090517196C0300D74162 /* GroupsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsVC.h; sourceTree = "<group>"; };
+		D882090617196C0300D74162 /* GroupsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsVC.m; sourceTree = "<group>"; };
+		D8949C5F171984AC004E9467 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		D8949C60171984AC004E9467 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		D8949C61171984AC004E9467 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		D8949C65171986EE004E9467 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D8949C67171986F4004E9467 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D8949C6917198701004E9467 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88208A1171947CE00D74162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8949C6A17198701004E9467 /* Accounts.framework in Frameworks */,
+				D8949C68171986F4004E9467 /* Social.framework in Frameworks */,
+				D8949C66171986EE004E9467 /* AdSupport.framework in Frameworks */,
+				9FBC8FAE17197A3800599DB4 /* SystemConfiguration.framework in Frameworks */,
+				9FBC8FAC17197A3200599DB4 /* StoreKit.framework in Frameworks */,
+				9FBC8FAA17197A2A00599DB4 /* Security.framework in Frameworks */,
+				9FBC8FA817197A2300599DB4 /* QuartzCore.framework in Frameworks */,
+				9FBC8FA617197A1D00599DB4 /* MobileCoreServices.framework in Frameworks */,
+				9FBC8FA417197A1700599DB4 /* libz.1.1.3.dylib in Frameworks */,
+				9FBC8FA217197A1100599DB4 /* CoreLocation.framework in Frameworks */,
+				D88208AC171947CE00D74162 /* CoreGraphics.framework in Frameworks */,
+				9FBC8FA017197A0100599DB4 /* CFNetwork.framework in Frameworks */,
+				9FBC8F9E171979F800599DB4 /* AudioToolbox.framework in Frameworks */,
+				D88208A8171947CE00D74162 /* UIKit.framework in Frameworks */,
+				D88208AA171947CE00D74162 /* Foundation.framework in Frameworks */,
+				9F65A3B0171955AD004B5221 /* Parse.framework in Frameworks */,
+				D8949C62171984AC004E9467 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D882089B171947CE00D74162 = {
+			isa = PBXGroup;
+			children = (
+				D88208AD171947CE00D74162 /* Pickle_alpha */,
+				D88208A6171947CE00D74162 /* Frameworks */,
+				D88208A5171947CE00D74162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88208A5171947CE00D74162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88208A4171947CE00D74162 /* Pickle_alpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88208A6171947CE00D74162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8949C6917198701004E9467 /* Accounts.framework */,
+				D8949C67171986F4004E9467 /* Social.framework */,
+				D8949C65171986EE004E9467 /* AdSupport.framework */,
+				D8949C5F171984AC004E9467 /* FacebookSDK.framework */,
+				D8949C60171984AC004E9467 /* FacebookSDKResources.bundle */,
+				D8949C61171984AC004E9467 /* FBUserSettingsViewResources.bundle */,
+				9FBC8FAD17197A3800599DB4 /* SystemConfiguration.framework */,
+				9FBC8FAB17197A3200599DB4 /* StoreKit.framework */,
+				9FBC8FA917197A2A00599DB4 /* Security.framework */,
+				9FBC8FA717197A2300599DB4 /* QuartzCore.framework */,
+				9FBC8FA517197A1D00599DB4 /* MobileCoreServices.framework */,
+				9FBC8FA317197A1700599DB4 /* libz.1.1.3.dylib */,
+				9FBC8FA117197A1100599DB4 /* CoreLocation.framework */,
+				9FBC8F9F17197A0100599DB4 /* CFNetwork.framework */,
+				9FBC8F9D171979F800599DB4 /* AudioToolbox.framework */,
+				9F65A3AF171955AD004B5221 /* Parse.framework */,
+				D88208A7171947CE00D74162 /* UIKit.framework */,
+				D88208A9171947CE00D74162 /* Foundation.framework */,
+				D88208AB171947CE00D74162 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88208AD171947CE00D74162 /* Pickle_alpha */ = {
+			isa = PBXGroup;
+			children = (
+				D88208B6171947CE00D74162 /* AppDelegate.h */,
+				D88208B7171947CF00D74162 /* AppDelegate.m */,
+				9D7D26A017198E11002FA6F3 /* PickleTime.h */,
+				9D7D26A117198E11002FA6F3 /* PickleTime.m */,
+				9FBC8FAF17197D5F00599DB4 /* Picklee.h */,
+				9FBC8FB017197D5F00599DB4 /* Picklee.m */,
+				D88208BF171947CF00D74162 /* MainStoryboard.storyboard */,
+				D88209021719669200D74162 /* NewGroupViewController.h */,
+				D88209031719669200D74162 /* NewGroupViewController.m */,
+				D882090517196C0300D74162 /* GroupsVC.h */,
+				D882090617196C0300D74162 /* GroupsVC.m */,
+				D88208FF171963D800D74162 /* LoginViewController.h */,
+				D8820900171963D800D74162 /* LoginViewController.m */,
+				D88208CD171954F600D74162 /* NewPickleViewController.h */,
+				D88208CE171954F600D74162 /* NewPickleViewController.m */,
+				D88208CA17194AA000D74162 /* PickleGroupTabBarController.h */,
+				D88208CB17194AA000D74162 /* PickleGroupTabBarController.m */,
+				D88208C2171947CF00D74162 /* RootViewController.h */,
+				D88208C3171947CF00D74162 /* RootViewController.m */,
+				9D7D26901719763D002FA6F3 /* GroupDetailsVC.h */,
+				9D7D26911719763D002FA6F3 /* GroupDetailsVC.m */,
+				9D7D2696171980E4002FA6F3 /* PickleDetailsVC.h */,
+				9D7D2697171980E4002FA6F3 /* PickleDetailsVC.m */,
+				D88208AE171947CE00D74162 /* Supporting Files */,
+			);
+			path = Pickle_alpha;
+			sourceTree = "<group>";
+		};
+		D88208AE171947CE00D74162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88208AF171947CE00D74162 /* Pickle_alpha-Info.plist */,
+				D88208B0171947CE00D74162 /* InfoPlist.strings */,
+				D88208B3171947CE00D74162 /* main.m */,
+				D88208B5171947CE00D74162 /* Pickle_alpha-Prefix.pch */,
+				D88208B9171947CF00D74162 /* Default.png */,
+				D88208BB171947CF00D74162 /* Default@2x.png */,
+				D88208BD171947CF00D74162 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88208A3171947CE00D74162 /* Pickle_alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88208C7171947CF00D74162 /* Build configuration list for PBXNativeTarget "Pickle_alpha" */;
+			buildPhases = (
+				D88208A0171947CE00D74162 /* Sources */,
+				D88208A1171947CE00D74162 /* Frameworks */,
+				D88208A2171947CE00D74162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickle_alpha;
+			productName = Pickle_alpha;
+			productReference = D88208A4171947CE00D74162 /* Pickle_alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D882089C171947CE00D74162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.hack2013;
+			};
+			buildConfigurationList = D882089F171947CE00D74162 /* Build configuration list for PBXProject "Pickle_alpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D882089B171947CE00D74162;
+			productRefGroup = D88208A5171947CE00D74162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88208A3171947CE00D74162 /* Pickle_alpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88208A2171947CE00D74162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88208B2171947CE00D74162 /* InfoPlist.strings in Resources */,
+				D88208BA171947CF00D74162 /* Default.png in Resources */,
+				D88208BC171947CF00D74162 /* Default@2x.png in Resources */,
+				D88208BE171947CF00D74162 /* Default-568h@2x.png in Resources */,
+				D88208C1171947CF00D74162 /* MainStoryboard.storyboard in Resources */,
+				D8949C63171984AC004E9467 /* FacebookSDKResources.bundle in Resources */,
+				D8949C64171984AC004E9467 /* FBUserSettingsViewResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88208A0171947CE00D74162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88208B4171947CE00D74162 /* main.m in Sources */,
+				D88208B8171947CF00D74162 /* AppDelegate.m in Sources */,
+				D88208C4171947CF00D74162 /* RootViewController.m in Sources */,
+				D88208CC17194AA100D74162 /* PickleGroupTabBarController.m in Sources */,
+				D88208CF171954F600D74162 /* NewPickleViewController.m in Sources */,
+				D8820901171963D800D74162 /* LoginViewController.m in Sources */,
+				D88209041719669300D74162 /* NewGroupViewController.m in Sources */,
+				D882090717196C0400D74162 /* GroupsVC.m in Sources */,
+				9D7D26921719763D002FA6F3 /* GroupDetailsVC.m in Sources */,
+				9FBC8FB117197D5F00599DB4 /* Picklee.m in Sources */,
+				9D7D2698171980E4002FA6F3 /* PickleDetailsVC.m in Sources */,
+				9D7D26A217198E11002FA6F3 /* PickleTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D88208B0171947CE00D74162 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88208B1171947CE00D74162 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D88208BF171947CF00D74162 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88208C0171947CF00D74162 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88208C5171947CF00D74162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D88208C6171947CF00D74162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88208C8171947CF00D74162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pickle_alpha/Pickle_alpha-Prefix.pch";
+				INFOPLIST_FILE = "Pickle_alpha/Pickle_alpha-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D88208C9171947CF00D74162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pickle_alpha/Pickle_alpha-Prefix.pch";
+				INFOPLIST_FILE = "Pickle_alpha/Pickle_alpha-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D882089F171947CE00D74162 /* Build configuration list for PBXProject "Pickle_alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88208C5171947CF00D74162 /* Debug */,
+				D88208C6171947CF00D74162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88208C7171947CF00D74162 /* Build configuration list for PBXNativeTarget "Pickle_alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88208C8171947CF00D74162 /* Debug */,
+				D88208C9171947CF00D74162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D882089C171947CE00D74162 /* Project object */;
+}
